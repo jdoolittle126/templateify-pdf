@@ -38,8 +38,7 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
 - Forth is $fields, an array of field - value pairs
 - Optionally, there is a $results parameter, which will store an exception if one occurs
 
-
-
+`
     $pathToPdfTemplate = "path\\to\\your\\pdf";
     $pathToOutputFile = "path\\to\\your\\output\\output.pdf";
     $flattenOutput = false;
@@ -51,3 +50,4 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
     );
 
     Templateifier::templateify($pathToPdfTemplate, $pathToOutputFile, $flattenOutput, $fields);
+   `
