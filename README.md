@@ -22,6 +22,7 @@ After creating a PDF form, take note of the field names. The values `Name`, `Dat
 ### Changing the PDF Version
 
 When saving your template, be sure to choose `Adode PDF Files, Optimized`. This will reveal a settings menu that will allow the PDF to be saved in a compatibility mode required for this program to function.
+
 ![Form Saving Options](docs/demo-save.jpg)
 
 In the settings dialog, select `Make compatible with: 'Acrobat 5.0 and later'`
@@ -38,7 +39,7 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
 - Forth is $fields, an array of field - value pairs
 - Optionally, there is a $results parameter, which will store an exception if one occurs
 
-`
+```
     $pathToPdfTemplate = "path\\to\\your\\pdf";
     $pathToOutputFile = "path\\to\\your\\output\\output.pdf";
     $flattenOutput = false;
@@ -50,4 +51,4 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
     );
 
     Templateifier::templateify($pathToPdfTemplate, $pathToOutputFile, $flattenOutput, $fields);
-   `
+   ```
