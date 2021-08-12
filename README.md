@@ -39,6 +39,7 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
 - Optionally, there is a $results parameter, which will store an exception if one occurs
 
 
+
     $pathToPdfTemplate = "path\\to\\your\\pdf";
     $pathToOutputFile = "path\\to\\your\\output\\output.pdf";
     $flattenOutput = false;
