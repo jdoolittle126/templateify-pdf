@@ -11,7 +11,7 @@ Add jdoolittle126/templateify-pdf in composer.json, or use the command:
 ## Usage
 
 Template-ify takes a template PDF file and data, and produces filled PDF files. Optionally, these PDFs can also be flattened to prevent further edits. Form data is added via a 'fields' array, containing key - value pairs. The key refers to the name of the form field, and the value is the data to be entered. One caveat is that the template PDF must be of version 1.4
-(Acrobat 5.x) or lower. See [Changing the PDF Version](#Changing the PDF Version).
+(Acrobat 5.x) or lower. See [Changing the PDF Version](#Changing-the-PDF-Version).
 
 ### Preparing a Template
 
@@ -39,7 +39,7 @@ The main function, `Templateifier::templateify`, takes 4 arguments.
 - Forth is `$fields`, an array of field - value pairs
 - Optionally, there is a `$results` parameter, which will store an exception if one occurs
 
-```
+```php
     $pathToPdfTemplate = "path\\to\\your\\pdf";
     $pathToOutputFile = "path\\to\\your\\output\\output.pdf";
     $flattenOutput = false;
