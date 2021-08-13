@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61d1ecb8eb63b3c4a0cdf9d8b2223460",
+    "content-hash": "7b18af350a67243faaa25444a51c6a56",
     "packages": [
         {
             "name": "zendframework/zendframework1",
@@ -51,17 +51,23 @@
                 "ZF1",
                 "framework"
             ],
+            "support": {
+                "issues": "https://github.com/zendframework/zf1/issues",
+                "source": "https://github.com/zendframework/zf1/tree/release-1.12.20"
+            },
             "abandoned": "zendframework/zendframework",
             "time": "2016-09-08T14:50:34+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.3.0"
+    },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }

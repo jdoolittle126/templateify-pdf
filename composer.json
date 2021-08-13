@@ -13,5 +13,10 @@
             "email": "jjdoolittle@email.neit.edu"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TemplateifyPdf\\": "src"
+        }
+    }
 }
