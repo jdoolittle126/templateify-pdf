@@ -33,11 +33,11 @@ In the settings dialog, select `Make compatible with: 'Acrobat 5.0 and later'`
 
 The main function, `Templateifier::templateify`, takes 4 arguments. 
 
-- The first is $pdfFile, the path to the template PDF file (Ex. "docs/my_form.pdf")
-- The second is $outputFile, the path where the output PDF will be created (Ex. "output/my_result.pdf")
-- The third is $flatten, true if the outputted document should be flattened, false if not
-- Forth is $fields, an array of field - value pairs
-- Optionally, there is a $results parameter, which will store an exception if one occurs
+- The first is `$pdfFile`, the path to the template PDF file (Ex. "docs/my_form.pdf")
+- The second is `$outputFile`, the path where the output PDF will be created (Ex. "output/my_result.pdf")
+- The third is `$flatten`, true if the outputted document should be flattened, false if not
+- Forth is `$fields`, an array of field - value pairs
+- Optionally, there is a `$results` parameter, which will store an exception if one occurs
 
 ```
     $pathToPdfTemplate = "path\\to\\your\\pdf";
